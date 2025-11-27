@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.animal-header{
+    background-color: #00a381;
+}
+.animal-header .title{
+    font-weight: normal;
+    color: #fff;
+}
+
