@@ -1,0 +1,75 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+}
+
+.animal-header{
+    background-color: #00a381;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.animal-header .title{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 48px;
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+    display: block;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 16px 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 16px 0;
+}
+
+p {
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+/* 戻るボタン */
+.back-btn {
+    display: inline-block;
+    margin: 32px;
+}
+
+.back-btn img {
+    width: 48px;
+    height: 48px;
+}
+
+/* メインレイアウト */
+.detail-container {
+    padding: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+}
+
+.image-box {
+    width: 100%;
+    height: 360px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.animal-info p {
+    margin-bottom: 16px;
+}
